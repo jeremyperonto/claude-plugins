@@ -1,4 +1,4 @@
-# peronto-skills
+# stockroom
 
 Claude Code plugin marketplace for marketplace-operator skills by [Jeremy Peronto](https://jeremyperonto.com) — storefront audits, seller economics, and the operating work behind e-commerce.
 
@@ -6,7 +6,7 @@ Claude Code plugin marketplace for marketplace-operator skills by [Jeremy Peront
 
 ```
 /plugin marketplace add jeremyperonto/claude-plugins
-/plugin install walk-the-store@peronto-skills
+/plugin install walk-the-store@stockroom
 ```
 
 Enable auto-updates for this marketplace in `/plugin` → Marketplaces, and new versions install themselves. Updates ship only on version bumps, never on raw commits.
