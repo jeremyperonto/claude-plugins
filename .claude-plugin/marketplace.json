@@ -1,0 +1,34 @@
+{
+  "name": "peronto-skills",
+  "owner": {
+    "name": "Jeremy Peronto",
+    "url": "https://jeremyperonto.com"
+  },
+  "metadata": {
+    "description": "Skills for marketplace operators \u2014 storefront audits, seller economics, and the operating work behind e-commerce. By Jeremy Peronto."
+  },
+  "plugins": [
+    {
+      "name": "walk-the-store",
+      "source": "./plugins/walk-the-store",
+      "description": "Audits your storefront by shopping it as a specific, qualified customer persona \u2014 site, marketplace listing, and app store page. Findings as work orders, screenshots as exhibits, measurement built in.",
+      "version": "1.2.0",
+      "category": "marketplace-operations",
+      "keywords": [
+        "e-commerce",
+        "storefront-audit",
+        "conversion",
+        "merchandising",
+        "shopify",
+        "amazon",
+        "app-store"
+      ],
+      "homepage": "https://jeremyperonto.com/walk-the-store/",
+      "author": {
+        "name": "Jeremy Peronto",
+        "url": "https://jeremyperonto.com"
+      },
+      "license": "MIT"
+    }
+  ]
+}
