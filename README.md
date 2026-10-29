@@ -5,11 +5,10 @@ Claude Code plugin marketplace for marketplace-operator skills by [Jeremy Peront
 ## Install
 
 ```
-/plugin marketplace add jeremyperonto/claude-plugins
-/plugin install walk-the-store@marketplace-skills
+claude plugin install walk-the-store --marketplace jeremyperonto/claude-plugins
 ```
 
-Enable auto-updates for this marketplace in `/plugin` → Marketplaces, and new versions install themselves. Updates ship only on version bumps, never on raw commits.
+One command from the terminal (Claude Code 2.1.292 or later): it adds this marketplace if you don't have it yet, then installs the plugin. Inside a session, `/plugin marketplace add jeremyperonto/claude-plugins` followed by `/plugin install walk-the-store@marketplace-skills` does the same. Enable auto-updates for this marketplace in `/plugin` → Marketplaces, and new versions install themselves. Updates ship only on version bumps, never on raw commits.
 
 ## Skills
 
